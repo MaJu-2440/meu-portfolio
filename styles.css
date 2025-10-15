@@ -85,10 +85,12 @@ header {
 
 .hero h1 {
     font-size: var(--size-large);
+    font-family: 'Epilogue', sans-serif;
 }
 
 .hero h2 {
     font-size: var(--size-xlarge);
+    font-family: 'Epilogue', sans-serif;
     color: var(--accent-color);
     line-height: 1.2;
 }
@@ -132,6 +134,7 @@ section {
 
 .section h2 {
     font-size: var(--size-large);
+    font-family: 'Epilogue', sans-serif;
     margin-bottom: 1rem;
     text-transform: uppercase;
 }
