@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', () => {
         projectCard.className = 'project-item';
         
         projectCard.innerHTML = `
-            <img src="${repo.openGraphImageUrl} || ${placeholderImg}" alt="${repo.name}"/>
+            <img src="${repo.openGraphImageUrl}" alt="${repo.name}"/>
             <h3>${repo.name}</h3>
             <ul class="tags">
                 ${languagesHtml}

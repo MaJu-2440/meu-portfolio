@@ -175,6 +175,11 @@ section {
     color: var(--text-color);
 }
 
+.project-item img {
+    max-width: 300px;
+    max-height: 200px;
+}
+
 #skills {
     background-color: var(--terciary-color);
 }
