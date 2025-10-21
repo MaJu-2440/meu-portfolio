@@ -1,8 +1,7 @@
 // Este código roda no servidor da Vercel
 // Não precisa de 'exports.handler'
 
-// Você pode precisar instalar o node-fetch: npm install node-fetch
-import fetch from 'node-fetch'; 
+const fetch = require('node-fetch');
 
 export default async function handler(request, response) {
   // 1. Sua query GraphQL (igual à anterior)
